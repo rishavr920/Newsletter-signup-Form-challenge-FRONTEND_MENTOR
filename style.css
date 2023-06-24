@@ -1,0 +1,79 @@
+
+   *{
+    box-sizing:border-box;
+  /*   font-family:https://fonts.google.com/specimen/Roboto; */
+  /*   font-weight:400,700; */
+  }
+  .container{
+    background:hsl(234, 29%, 20%);
+    justify-content: center;
+    margin:70px 5px 5px 50px;
+  /*   border-radius:50px; */
+  }
+  .container2{
+    display:flex;/*upar se hatke side by side aa                    jata h*/
+    border:1px solid red;
+  /*   left:50%; */
+  /*   align-item:center; */
+    justify-content:center;/*use for doing whole                              content in center*/
+    padding-top:50px;
+    padding-bottom:50px;
+  }
+  .container3{
+    background: hsl(0, 0%, 100%);
+    border-radius:2px;
+  /*   border:2px solid green; */
+    display:flex;
+    
+    
+  }
+  .container4{
+    padding:32px;
+    margin:50px;
+    
+  }
+  .container5{
+    padding-right:12px;
+    padding-top:12px;
+    padding-bottom:12px;
+  }
+  .container6{
+    display:flex;
+    
+    
+  }
+  .common{
+    padding-left:15px;
+    margin:5px;
+  }
+  input{
+    display:flex;
+    padding:5px;
+    margin-left:2px;
+    margin-top:5px;
+    padding-top:5px;
+  /*   position:absolute; */
+  }
+  button{
+    border:none;
+    display:flex;
+    background-color:hsl(235, 18%, 26%);
+    color:white;
+    border-radius:5px;
+    position:absolute;
+    padding:10px;
+    margin-left:2px;
+    margin-top:5px;
+    font-size:16px;
+    
+  }
+  span{
+    padding:3px;
+    margin: 1px 8px 1px 8px;
+    font-size:16px;
+  }
+  button:hover{
+    color:black;
+    background-color:hsl(4, 100%, 67%);
+    font-size:16px;
+  }
